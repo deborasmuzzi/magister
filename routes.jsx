@@ -5,11 +5,12 @@ import{
     createRoutesFromElements,
 } from "react-router-dom";
 
-
+import Home from "./src/Pages/Home/Home";
 
 const router = createBrowserRouter (
     createRoutesFromElements(
     <Route>
+        <Route path="/" element={<Home />} />
     </Route>
     )
 )
